@@ -35,6 +35,8 @@ function runGame(gameType) {
     document.getElementById("answer-box").focus();
 
     // Creates two random numbers between 1 and 25
+    // Creates one number for division by multiplying 
+    // num1 and 2 get num3. 
     let num1 = Math.floor(Math.random() * 25) + 1;
     let num2 = Math.floor(Math.random() * 25) + 1;
     let num3 = num1 * num2;
